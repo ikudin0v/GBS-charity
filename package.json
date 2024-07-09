@@ -1,0 +1,47 @@
+{
+	"name": "gbs-map-react",
+	"version": "0.1.0",
+	"private": true,
+	"homepage": "https://gbs-map-react.web.app",
+	"dependencies": {
+		"@pbe/react-yandex-maps": "^1.2.5",
+		"@testing-library/react": "^13.4.0",
+		"@testing-library/user-event": "^13.5.0",
+		"@types/lodash": "^4.14.202",
+		"@types/query-string": "^6.3.0",
+		"@types/react": "^18.2.61",
+		"@types/react-dom": "^18.2.19",
+		"@types/react-router-dom": "^5.3.3",
+		"@types/react-toastify": "^4.1.0",
+		"axios": "^1.6.7",
+		"gh-pages": "^6.1.1",
+		"lodash": "^4.17.21",
+		"path": "^0.12.7",
+		"query-string": "^9.0.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-router-dom": "^5.3.4",
+		"react-scripts": "5.0.1",
+		"react-toastify": "^10.0.4",
+		"typescript": "^4.9.5"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build && firebase deploy"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"tailwindcss": "^3.4.1"
+	}
+}
